@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slide-puzzle-style.css">
+    <title>Slide puzzle</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="images/Train5_small.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="container">
+        <div id="content">
+            <h2>Sliding puzzle</h2>
+            <span id="load"></span>
+            <button id="shuffle" type="button">Shuffle</button>
+            <div id="gameBoard" class="game-board"></div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Train Your Brain.</p>
+    </footer>
+
+    <div id="winModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="winMessage">Congratulations! You've solved the puzzle!</p>
+        </div>
+    </div>
+
+    <script src="js/slide-puzzle.js"></script>
+</body>
+</html>

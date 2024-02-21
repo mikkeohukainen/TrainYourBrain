@@ -1,0 +1,247 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: #e0f2f1;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+header {
+    background-color: #29b6f6;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+header nav {
+    padding: 1px 0;
+    background-color: #0288d1;
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    margin: 20px 10vw;
+    background-color: #b3e5fc;
+    padding: 0 4em 4em;
+    border: 2px solid #0277bd;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+#settings, select {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    background-color: #0288d1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #0277bd;
+}
+
+table {
+    border: 2px solid #000000;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: middle;  
+}
+
+td,th {
+    padding: 0
+}
+
+table input {
+    color: #000000;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    outline: none;
+}
+
+input:disabled {
+    background-color: #e7e7e7;
+}
+
+#cell-0,  #cell-1,  #cell-2  { border-top:    2px solid #000000; }
+#cell-2,  #cell-11, #cell-20 { border-right:  2px solid #000000; }
+#cell-18, #cell-19, #cell-20 { border-bottom: 2px solid #000000; }
+#cell-0,  #cell-9,  #cell-18 { border-left:   2px solid #000000; }
+
+#cell-3,  #cell-4,  #cell-5  { border-top:    2px solid #000000; }
+#cell-5,  #cell-14, #cell-23 { border-right:  2px solid #000000; }
+#cell-21, #cell-22, #cell-23 { border-bottom: 2px solid #000000; }
+#cell-3,  #cell-12, #cell-21 { border-left:   2px solid #000000; }
+
+#cell-6,  #cell-7,  #cell-8  { border-top:    2px solid #000000; }
+#cell-8,  #cell-17, #cell-26 { border-right:  2px solid #000000; }
+#cell-24, #cell-25, #cell-26 { border-bottom: 2px solid #000000; }
+#cell-6,  #cell-15, #cell-24 { border-left:   2px solid #000000; }
+
+#cell-27, #cell-28, #cell-29 { border-top:    2px solid #000000; }
+#cell-29, #cell-38, #cell-47 { border-right:  2px solid #000000; }
+#cell-45, #cell-46, #cell-47 { border-bottom: 2px solid #000000; }
+#cell-27, #cell-36, #cell-45 { border-left:   2px solid #000000; }
+
+#cell-30, #cell-31, #cell-32 { border-top:    2px solid #000000; }
+#cell-32, #cell-41, #cell-50 { border-right:  2px solid #000000; }
+#cell-48, #cell-49, #cell-50 { border-bottom: 2px solid #000000; }
+#cell-30, #cell-39, #cell-48 { border-left:   2px solid #000000; }
+
+#cell-33, #cell-34, #cell-35 { border-top:    2px solid #000000; }
+#cell-35, #cell-44, #cell-53 { border-right:  2px solid #000000; }
+#cell-51, #cell-52, #cell-53 { border-bottom: 2px solid #000000; }
+#cell-33, #cell-42, #cell-51 { border-left:   2px solid #000000; }
+
+#cell-54, #cell-55, #cell-56 { border-top:    2px solid #000000; }
+#cell-56, #cell-65, #cell-74 { border-right:  2px solid #000000; }
+#cell-72, #cell-73, #cell-74 { border-bottom: 2px solid #000000; }
+#cell-54, #cell-63, #cell-72 { border-left:   2px solid #000000; }
+
+#cell-57, #cell-58, #cell-59 { border-top:    2px solid #000000; }
+#cell-59, #cell-68, #cell-77 { border-right:  2px solid #000000; }
+#cell-75, #cell-76, #cell-77 { border-bottom: 2px solid #000000; }
+#cell-57, #cell-66, #cell-75 { border-left:   2px solid #000000; }
+
+#cell-60, #cell-61, #cell-62 { border-top:    2px solid #000000; }
+#cell-62, #cell-71, #cell-80 { border-right:  2px solid #000000; }
+#cell-78, #cell-79, #cell-80 { border-bottom: 2px solid #000000; }
+#cell-60, #cell-69, #cell-78 { border-left:   2px solid #000000; }
+
+footer {
+    background-color: #0288d1;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15em auto;
+    padding: 20px;
+    border: 2px solid #0277bd;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 840px) {
+    button {
+        font-size: 1em;
+    }
+
+    #content {
+        margin: 20px 10vw;
+        padding: 0 2em 2em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    table input {
+        width: 38px;
+        height: 38px;
+        font-size: 20px;
+    }
+
+    #content {
+        margin: 20px 10vw;
+        padding: 0 0.5em 1em;
+        margin-bottom: 6em;
+    }
+
+    .banner img {
+        width: 300px;
+    }
+
+    /* footer {
+        position: fixed;
+
+    } */
+
+    .modal-content {
+        width: 70%;
+    }
+}
