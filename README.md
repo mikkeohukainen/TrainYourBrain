@@ -23,7 +23,7 @@ The board holds 16 squares, each one with a number from 1 to 15, except the 'las
 
 At the beginning of the game, the board is shuffled automatically by making random but valid moves 300-400 times.
 The goal is to arrange the squares in correct order with the empty square being the last one.
-You simply click on the square that you want to switch places with the empty one, and continue that until you get them arranged or thow your phone/mouse to the wall.
+You simply click on the square that you want to switch places with the empty one, and continue that until you get them arranged or decide to throw your phone/mouse to the wall.
 
 The puzzle also includes a 'stop-watch' that starts each time the puzzle is shuffled and stops once the puzzle is solved correctly.
 The time is displayed along with a message if the user manages to solve the puzzle.

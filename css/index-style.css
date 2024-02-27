@@ -20,9 +20,13 @@ header {
     font-size: 22px;
 }
 
-header nav {
+nav {
     padding: 1px 0;
     background-color: #0288d1;
+    text-align: center;
+    font-size: 22px;
+    position: sticky;
+	top: 0;
 }
 
 .banner h1 {
