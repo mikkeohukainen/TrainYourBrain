@@ -5,6 +5,8 @@ TrainYourBrain is a website where you can have fun and improve your analytical t
 The website is publicly hosted with Firebase and you can check it out here
 [TrainYourBrain](https://trainyourbrain-c8e09.web.app/index.html).
 
+This was my first frontend project ever, created with HTML, CSS and vanilla JS while having about two months of experience with them.
+
 ## Sudoku
 
 The Sudoku grid was created by first making a simple HTML-table and then filling it with initial values fetched from a public API called [Dosuku](https://sudoku-api.vercel.app/).
